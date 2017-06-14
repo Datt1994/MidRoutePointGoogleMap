@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33A81371A6117E53B755AEBA /* Pods_midPointGoogleMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2732225873CA75B294D95421 /* Pods_midPointGoogleMap.framework */; };
+		C65C48D51EF10D3B006F19C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65C48D41EF10D3B006F19C9 /* AppDelegate.swift */; };
+		C65C48D71EF10D3B006F19C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65C48D61EF10D3B006F19C9 /* ViewController.swift */; };
+		C65C48DA1EF10D3B006F19C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C65C48D81EF10D3B006F19C9 /* Main.storyboard */; };
+		C65C48DC1EF10D3B006F19C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C65C48DB1EF10D3B006F19C9 /* Assets.xcassets */; };
+		C65C48DF1EF10D3B006F19C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C65C48DD1EF10D3B006F19C9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2732225873CA75B294D95421 /* Pods_midPointGoogleMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_midPointGoogleMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4FA2864482C8D5F2486195 /* Pods-midPointGoogleMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-midPointGoogleMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-midPointGoogleMap/Pods-midPointGoogleMap.debug.xcconfig"; sourceTree = "<group>"; };
+		C65C48D11EF10D3B006F19C9 /* midPointGoogleMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = midPointGoogleMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65C48D41EF10D3B006F19C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C65C48D61EF10D3B006F19C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C65C48D91EF10D3B006F19C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C65C48DB1EF10D3B006F19C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C65C48DE1EF10D3B006F19C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C65C48E01EF10D3B006F19C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E51F442798A23B011A77C3BA /* Pods-midPointGoogleMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-midPointGoogleMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-midPointGoogleMap/Pods-midPointGoogleMap.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C65C48CE1EF10D3B006F19C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A81371A6117E53B755AEBA /* Pods_midPointGoogleMap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA9D2D38C7D17834C35C7CC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E4FA2864482C8D5F2486195 /* Pods-midPointGoogleMap.debug.xcconfig */,
+				E51F442798A23B011A77C3BA /* Pods-midPointGoogleMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C65C48C81EF10D3B006F19C9 = {
+			isa = PBXGroup;
+			children = (
+				C65C48D31EF10D3B006F19C9 /* midPointGoogleMap */,
+				C65C48D21EF10D3B006F19C9 /* Products */,
+				BA9D2D38C7D17834C35C7CC9 /* Pods */,
+				F14515C167A92A7A7DA9A7DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C65C48D21EF10D3B006F19C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C65C48D11EF10D3B006F19C9 /* midPointGoogleMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C65C48D31EF10D3B006F19C9 /* midPointGoogleMap */ = {
+			isa = PBXGroup;
+			children = (
+				C65C48D41EF10D3B006F19C9 /* AppDelegate.swift */,
+				C65C48D61EF10D3B006F19C9 /* ViewController.swift */,
+				C65C48D81EF10D3B006F19C9 /* Main.storyboard */,
+				C65C48DB1EF10D3B006F19C9 /* Assets.xcassets */,
+				C65C48DD1EF10D3B006F19C9 /* LaunchScreen.storyboard */,
+				C65C48E01EF10D3B006F19C9 /* Info.plist */,
+			);
+			path = midPointGoogleMap;
+			sourceTree = "<group>";
+		};
+		F14515C167A92A7A7DA9A7DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2732225873CA75B294D95421 /* Pods_midPointGoogleMap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C65C48D01EF10D3B006F19C9 /* midPointGoogleMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65C48E31EF10D3B006F19C9 /* Build configuration list for PBXNativeTarget "midPointGoogleMap" */;
+			buildPhases = (
+				50A0FA9A9BF48DA12B4493EF /* [CP] Check Pods Manifest.lock */,
+				C65C48CD1EF10D3B006F19C9 /* Sources */,
+				C65C48CE1EF10D3B006F19C9 /* Frameworks */,
+				C65C48CF1EF10D3B006F19C9 /* Resources */,
+				93C72319189B96A920844222 /* [CP] Embed Pods Frameworks */,
+				CC24ED03D52FD4A2D50C9ADB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = midPointGoogleMap;
+			productName = midPointGoogleMap;
+			productReference = C65C48D11EF10D3B006F19C9 /* midPointGoogleMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C65C48C91EF10D3B006F19C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zaptechsolutions;
+				TargetAttributes = {
+					C65C48D01EF10D3B006F19C9 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = C65C48CC1EF10D3B006F19C9 /* Build configuration list for PBXProject "midPointGoogleMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C65C48C81EF10D3B006F19C9;
+			productRefGroup = C65C48D21EF10D3B006F19C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C65C48D01EF10D3B006F19C9 /* midPointGoogleMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C65C48CF1EF10D3B006F19C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65C48DF1EF10D3B006F19C9 /* LaunchScreen.storyboard in Resources */,
+				C65C48DC1EF10D3B006F19C9 /* Assets.xcassets in Resources */,
+				C65C48DA1EF10D3B006F19C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50A0FA9A9BF48DA12B4493EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		93C72319189B96A920844222 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-midPointGoogleMap/Pods-midPointGoogleMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC24ED03D52FD4A2D50C9ADB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-midPointGoogleMap/Pods-midPointGoogleMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C65C48CD1EF10D3B006F19C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65C48D71EF10D3B006F19C9 /* ViewController.swift in Sources */,
+				C65C48D51EF10D3B006F19C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C65C48D81EF10D3B006F19C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C65C48D91EF10D3B006F19C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C65C48DD1EF10D3B006F19C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C65C48DE1EF10D3B006F19C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C65C48E11EF10D3B006F19C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C65C48E21EF10D3B006F19C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C65C48E41EF10D3B006F19C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E4FA2864482C8D5F2486195 /* Pods-midPointGoogleMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = midPointGoogleMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.datt.midPointGoogleMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C65C48E51EF10D3B006F19C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E51F442798A23B011A77C3BA /* Pods-midPointGoogleMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = midPointGoogleMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.datt.midPointGoogleMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C65C48CC1EF10D3B006F19C9 /* Build configuration list for PBXProject "midPointGoogleMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C65C48E11EF10D3B006F19C9 /* Debug */,
+				C65C48E21EF10D3B006F19C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65C48E31EF10D3B006F19C9 /* Build configuration list for PBXNativeTarget "midPointGoogleMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C65C48E41EF10D3B006F19C9 /* Debug */,
+				C65C48E51EF10D3B006F19C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C65C48C91EF10D3B006F19C9 /* Project object */;
+}
