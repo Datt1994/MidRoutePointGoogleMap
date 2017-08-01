@@ -14,12 +14,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [self displayMap];
-    
-    [self getRoutes];
     position= CLLocationCoordinate2DMake(23.0590, 72.5368);
     position1= CLLocationCoordinate2DMake(21.1702, 72.8311);
     
+    [self displayMap];
+    [self getRoutes];
 }
 -(void)displayMap{
     [mapView clear];
@@ -123,8 +122,8 @@
         NSString *url_String = [NSString stringWithFormat:@"https://maps.googleapis.com/maps/api/directions/json?"];
         
         NSMutableDictionary *parameters=[[NSMutableDictionary alloc]init];
-        [parameters setValue:@"23.0590,72.5368" forKey:@"origin"];
-        [parameters setValue: @"21.1702, 72.8311" forKey:@"destination"];
+        [parameters setValue:[NSString stringWithFormat:@"%f,%f",position.latitude,position.longitude] forKey:@"origin"];
+        [parameters setValue:[NSString stringWithFormat:@"%f,%f",position1.latitude,position1.longitude] forKey:@"destination"];
         [parameters setValue:@"driving" forKey:@"mode"];
         [parameters setValue:@"AIzaSyC0wK2p24XbUFF0v3A1RdbxWRTuQb12hJY" forKey:@"key"];
         
