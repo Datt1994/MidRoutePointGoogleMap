@@ -1,5 +1,5 @@
-# MidRoutePointGoogleMap
-find middle route point between two location using google map.
+## MidRoutePointGoogleMap
 
+Find middle route point between two location using google map.
 
-please do $ pod install
+Please do **`$ pod install`**
